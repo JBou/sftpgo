@@ -74,7 +74,7 @@ jobs:
             VERSION="${VERSION}-plugins"
             VERSION_SLIM="${VERSION}-slim"
           fi
-          DOCKER_IMAGES=("drakkan/sftpgo" "ghcr.io/drakkan/sftpgo")
+          DOCKER_IMAGES=("jbouhd/sftpgo" "ghcr.io/jbou/sftpgo")
           TAGS="${DOCKER_IMAGES[0]}:${VERSION}"
           TAGS_SLIM="${DOCKER_IMAGES[0]}:${VERSION_SLIM}"
 
